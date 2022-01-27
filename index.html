@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>iPhone 8</title>
+</head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<body>
+    <div class="container">
+        <div class="phone" id="phone">
+            <div class="top">
+                <div class="camera" onclick="dl()"></div>
+                <div class="speaker"></div>
+            </div>
+            <div class="disp" id="disp">
+                <div class="ststusBar">
+                    <div class="network">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="batt">
+                        <p class="per">000%</p>
+                        <div class="icon">
+                            <div class="available"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timedate">
+                    <div class="time"><p id="time">9:41</p></div>
+                    <div class="date" id='date'>Tuesady, 12 September</div>
+                </div>
+                <div class="dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="home" onclick="home()"></div>
+            </div>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
